@@ -6,17 +6,11 @@ using System.Threading.Tasks;
 
 namespace JenkinsTest
 {
-    class Program
+    public class Class1
     {
-        static void Main(string[] args)
+        public int sum(int i)
         {
-            string hola="hola mundo";
-
-            Console.WriteLine(hola);
+            return i + i;
         }
-
-       
     }
-
-
 }
