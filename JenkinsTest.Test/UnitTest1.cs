@@ -23,11 +23,6 @@ namespace JenkinsTest.test
             Assert.AreEqual(expectedValue, actualValue);
         }
 
-        [TestMethod]
-        public void IsSecondsGreaterOrEqualThanTen()
-        {
-            int second=1;
-            Assert.IsTrue(second >= 10);
-        }
+       
     }
 }
