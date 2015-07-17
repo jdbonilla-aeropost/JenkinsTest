@@ -14,5 +14,13 @@ namespace JenkinsTest.test
             int actualValue = class1.sum(3);
             Assert.AreEqual(expectedValue, actualValue);
         }
+        [TestMethod]
+        public void Subtract()
+        {
+            Class1 class1 = new Class1();
+            int expectedValue = 0;
+            int actualValue = class1.subtract(3);
+            Assert.AreEqual(expectedValue, actualValue);
+        }
     }
 }

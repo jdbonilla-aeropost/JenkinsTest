@@ -12,5 +12,10 @@ namespace JenkinsTest
         {
             return i + i;
         }
+
+        public int subtract(int i)
+        {
+            return i - i;
+        }
     }
 }
