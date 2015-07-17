@@ -1,19 +1,18 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace JenkinsTest.Test
+namespace JenkinsTest.test
 {
     [TestClass]
     public class UnitTest1
     {
         [TestMethod]
-        public void TestMethod1()
+        public void Sum()
         {
-            Class1 class1 = new Class1();
-            int expected = 7;
-            int actual;
-            actual=class1.sum(3);
-            Assert.AreEqual(expected, actual);
+            Class1 class1=new Class1();
+            int expectedValue = 6;
+            int actualValue = class1.sum(3);
+            Assert.AreEqual(expectedValue, actualValue);
         }
     }
 }
