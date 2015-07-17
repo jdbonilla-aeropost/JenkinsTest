@@ -17,5 +17,10 @@ namespace JenkinsTest
         {
             return i - i;
         }
+
+        public int zero()
+        {
+            return 0;
+        }
     }
 }
