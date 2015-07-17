@@ -29,7 +29,8 @@ namespace JenkinsTest.test
             Class1 class1 = new Class1();
             int expectedValue = 0;
             int actualValue = class1.zero();
-            Assert.AreEqual(expectedValue, actualValue);
+            //Assert.AreEqual(expectedValue, actualValue);
+            Assert.Fail();
         }
     }
 }

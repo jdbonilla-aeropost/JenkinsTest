@@ -11,7 +11,7 @@ namespace JenkinsTest
         static void Main(string[] args)
         {
             string hola="hola Francisco";
-            Consoe.WriteLine(hola);
+            Console.WriteLine(hola);
         }
 
        
