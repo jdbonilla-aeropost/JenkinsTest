@@ -10,7 +10,7 @@ namespace JenkinsTest.test
         public void Sum()
         {
             Class1 class1=new Class1();
-            int expectedValue = 7;
+            int expectedValue = 6;
             int actualValue = class1.sum(3);
             Assert.AreEqual(expectedValue, actualValue);
         }
